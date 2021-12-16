@@ -1,0 +1,17 @@
+endpoints:
+  - request:
+      path: /api/v1/ping
+      method: GET
+    response:
+      code: 200
+      body: ping.json
+      headers:
+        content-type: application/json
+  - request:
+      path: /api/v1/version
+      method: GET
+    response:
+      code: 200
+      body: version.json
+      headers:
+        content-type: application/json
